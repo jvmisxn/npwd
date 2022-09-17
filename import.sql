@@ -1,6 +1,6 @@
 # comment this out if your server has a different table/location for phone_number
 # or if it already exists in the users table
-# ALTER TABLE `users` ADD COLUMN `phone_number` VARCHAR(20) DEFAULT NULL;
+# ALTER TABLE `players` ADD COLUMN `phone_number` VARCHAR(20) DEFAULT NULL;
 
 # if you already have the npwd_message table without `is_embed` and `embed`, run this query in your sql console
 # ALTER TABLE npwd_messages ADD COLUMN `is_embed` tinyint(4) NOT NULL DEFAULT 0;

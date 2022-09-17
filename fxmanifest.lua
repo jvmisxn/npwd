@@ -2,7 +2,7 @@ fx_version "cerulean"
 game "gta5"
 description 'js runtime monkaW'
 authors { "itschip",  "erik-sn", "TasoOneAsia", "kidz", "RockySouthpaw"}
-version '1.6.1'
+version '1.6.0'
 client_scripts {
 	"resources/dist/client/client.js",
 	"resources/client/*.lua",
@@ -26,4 +26,12 @@ files {
 dependency {
 	"screenshot-basic",
 	"pma-voice",
+    'npwd_qb_garage',
+    'npwd_qb_mail',
+	'npwd_qb_racing',
+	'npwd_crypto',
+	'npwd_qb_banking',
+    'npwd_qb_services',
+	'npwd_qb_housing',
+	'qb-npwd',
 }
